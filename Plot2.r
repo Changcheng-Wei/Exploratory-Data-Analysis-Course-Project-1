@@ -34,3 +34,5 @@ dev.copy(png, file = "plot2.png", width = 480, height = 480)
 dev.off()
 # Close the graphics device
 
+# Clean up
+rm(data)
