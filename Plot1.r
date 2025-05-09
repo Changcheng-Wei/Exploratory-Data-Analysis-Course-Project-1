@@ -35,4 +35,6 @@ with (filtered_data, {
        breaks = 50)
 })
 # Close the PNG device
-dev.off()
+dev.off() 
+# Clean up
+rm(data)
